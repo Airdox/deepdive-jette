@@ -1,1 +1,13 @@
-ÿþ
+[build]
+  publish = "."
+
+[feature_flags]
+  "o4-mini" = "preview"
+
+[context.production.environment]
+  PASSWORD_ANDI = "andi123"
+  PASSWORD_RICARDO = "ricardo123"
+  PASSWORD_MICHA = "micha123"
+  PASSWORD_ENJO = "enjo123"
+  PASSWORD_MAREEN = "mareen123"
+  PASSWORD_SONSTWER = "sonstwer123"
